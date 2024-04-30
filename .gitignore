@@ -1,0 +1,6 @@
+/.ruff_cache
+*.jpg
+*.png
+__pycache__
+/.venv
+/*.egg-info
