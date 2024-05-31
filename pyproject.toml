@@ -28,5 +28,5 @@ dynamic = ["dependencies"]
 dependencies = {file = ["requirements.txt"]}
 
 [project.scripts]
-qrg = qrgenerator:main
+qrg = "qrgenerator:main"
 
