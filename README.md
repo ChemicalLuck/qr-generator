@@ -11,7 +11,7 @@ This package provides a simple yet powerful tool for generating QR codes with cu
 You can install the package using pip:
 
 ```bash
-pip install qrcode-logo-generator
+pip install qr-generator
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ qrg <logo> <url> <suffix> <count> [-o OUTPUT]
 Generate 5 QR codes with logos for a website:
 
 ```bash
-qrcode-logo-generator logo.png https://example.com/page/ item_ 5 -o output_directory
+qrg logo.png https://example.com/page/ item_ 5 -o output_directory
 ```
 
 This will generate 5 QR codes with logos for the URLs 
